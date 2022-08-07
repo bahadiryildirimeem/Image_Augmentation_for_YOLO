@@ -13,7 +13,7 @@ You can easily expand your YOLO data set with this script.
 
 # How to use?
 
-Write to this command line to your command prompt: 
+Write this command line to your command prompt: 
 
 ``` python albumentations_yolo_script.py your_image_directory your_label_bbox_directory ```
 

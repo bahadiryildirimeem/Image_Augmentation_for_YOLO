@@ -50,7 +50,7 @@ while True:
 for imgFileName in imgFiles:
     inImgName = imgFileName[:-4] #      removing .jpg format.
     inLblName = lblFiles[index][:-4] #  removing .txt format.
-    if(imgFileName == "desktop.ini" or inLblName == "desktop.ini"):
+    if("desktop" in inLblName):
         index = index + 1
         continue
 
